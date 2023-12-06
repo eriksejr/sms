@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eriksejr/sms"
+	"github.com/eriksejr/sms/encoding/gsm7/charset"
+	"github.com/eriksejr/sms/encoding/tpdu"
+	"github.com/eriksejr/sms/encoding/ucs2"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms"
-	"github.com/warthog618/sms/encoding/gsm7/charset"
-	"github.com/warthog618/sms/encoding/tpdu"
-	"github.com/warthog618/sms/encoding/ucs2"
 )
 
 func TestDecode(t *testing.T) {

@@ -7,8 +7,8 @@ package tpdu_test
 import (
 	"testing"
 
+	"github.com/eriksejr/sms/encoding/tpdu"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms/encoding/tpdu"
 )
 
 func TestFirstOctetLP(t *testing.T) {

@@ -8,7 +8,7 @@
 // This is non-optimal as it encodes the required Submit TPDUs, and calculates
 // the output from them rather than just performing the minimal calculations
 // required for the output. OTOH CPU is cheap so I've not bothered to add
-// suitably optimised methods to the library. YMMV.
+// suitably optimized methods to the library. YMMV.
 package main
 
 import (
@@ -17,8 +17,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/warthog618/sms"
-	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/eriksejr/sms"
+	"github.com/eriksejr/sms/encoding/tpdu"
 )
 
 func main() {

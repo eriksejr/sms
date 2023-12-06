@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/eriksejr/sms/encoding/bcd"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms/encoding/bcd"
 )
 
 type decodePattern struct {

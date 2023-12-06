@@ -13,8 +13,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/warthog618/sms"
-	"github.com/warthog618/sms/encoding/pdumode"
+	"github.com/eriksejr/sms"
+	"github.com/eriksejr/sms/encoding/pdumode"
 )
 
 func main() {

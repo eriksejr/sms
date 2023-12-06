@@ -6,8 +6,8 @@
 package sms
 
 import (
-	"github.com/warthog618/sms/encoding/tpdu"
-	"github.com/warthog618/sms/encoding/ucs2"
+	"github.com/eriksejr/sms/encoding/tpdu"
+	"github.com/eriksejr/sms/encoding/ucs2"
 )
 
 // DecodeConfig contains configuration option for Decode.

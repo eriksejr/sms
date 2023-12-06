@@ -17,7 +17,7 @@ var (
 	ErrDcsConflict = errors.New("DCS conflict")
 	// ErrDuplicateSegment indicates a segment has arrived for a reassembly
 	// that already has that segment.
-	// The segments are duplicates in terms of their concatentation information.
+	// The segments are duplicates in terms of their concatenation information.
 	// They may differ in other fields, particularly UD, but those fields
 	// cannot be used to determine which of the two may better fit the
 	// reassembly, so the first is kept and the second discarded.

@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eriksejr/sms/encoding/bcd"
+	"github.com/eriksejr/sms/encoding/tpdu"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms/encoding/bcd"
-	"github.com/warthog618/sms/encoding/tpdu"
 )
 
 func TestVPEnhancedFormat(t *testing.T) {

@@ -5,8 +5,8 @@
 package pdumode
 
 import (
-	"github.com/warthog618/sms/encoding/semioctet"
-	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/eriksejr/sms/encoding/semioctet"
+	"github.com/eriksejr/sms/encoding/tpdu"
 )
 
 // SMSCAddress is the address of the SMSC.

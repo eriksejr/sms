@@ -7,7 +7,7 @@ package sms
 import (
 	"sync/atomic"
 
-	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/eriksejr/sms/encoding/tpdu"
 )
 
 // Encode builds a set of TPDUs containing the message.
@@ -15,7 +15,7 @@ import (
 // Long messages are split into multiple concatenated TPDUs, while short
 // messages may fit in one.
 //
-// By default messages are encoded into SMS-SUBMIT TPDUs.  This behaviour may
+// By default messages are encoded into SMS-SUBMIT TPDUs.  This behavior may
 // be overridden via options.
 //
 // For 8-bit encoding the message is encoded as is.

@@ -1,4 +1,4 @@
-module github.com/warthog618/sms
+module github.com/eriksejr/sms
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -8,4 +8,4 @@ require (
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
 
-go 1.13
+go 1.21

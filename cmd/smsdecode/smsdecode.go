@@ -14,9 +14,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/warthog618/sms"
-	"github.com/warthog618/sms/encoding/pdumode"
-	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/eriksejr/sms"
+	"github.com/eriksejr/sms/encoding/pdumode"
+	"github.com/eriksejr/sms/encoding/tpdu"
 )
 
 func main() {
