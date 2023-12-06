@@ -5,9 +5,9 @@
 package main
 
 import (
-	"github.com/warthog618/sms"
-	"github.com/warthog618/sms/encoding/gsm7/charset"
-	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/eriksejr/sms"
+	"github.com/eriksejr/sms/encoding/gsm7/charset"
+	"github.com/eriksejr/sms/encoding/tpdu"
 )
 
 func main() {
